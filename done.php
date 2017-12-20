@@ -1,6 +1,7 @@
 Done.php
 
 <?php
+require 'db.php';
 if (isset($_GET['as'], $_GET['message'])) {
 	$as = $_GET['as'];
 	$item = $_GET['message'];
